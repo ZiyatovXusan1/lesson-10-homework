@@ -72,3 +72,39 @@
 // console.log(getNumberOfCases(str));
 
 // ! 6-masala 
+// let obj = {
+//     a: 1, 
+//     b: 2, 
+//     c: 3
+// }
+// function changeObjToString(obj) {
+//     let keys = Object.keys(obj).join('')
+//     let values = Object.values(obj).join('')
+//     return keys + values
+// }
+// console.log(changeObjToString(obj));
+
+// ! 7-masala
+// const products = [
+//   { id: 1, name: 'Bike', price: 100 },
+//   { id: 2, name: 'TV', price: 400 },
+//   { id: 3, name: 'Album', price: 800 },
+//   { id: 4, name: 'Book', price: 600 },
+//   { id: 5, name: 'Phone', price: 500 },
+//   { id: 6, name: 'Computer', price: 1000 },
+//   { id: 7, name: 'Skate', price: 300 },
+//   { id: 8, name: 'Keyboard', price: 200 },
+//   { id: 9, name: 'Bottle', price: 700 },
+// ];
+
+// function getProductsSum(...ids) {
+//     let sum = 0;
+//     for (let id of ids) {
+//         let product = products.find(p => p.id == id)
+//         if (product) {
+//           sum += product.price;
+//         }
+//     }
+//     return sum;
+// }
+// console.log(getProductsSum(4, 6, 9));
