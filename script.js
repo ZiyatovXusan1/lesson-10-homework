@@ -108,3 +108,57 @@
 //     return sum;
 // }
 // console.log(getProductsSum(4, 6, 9));
+
+// ! 8-masala
+// const products = [
+//   { id: 1, name: 'Bike', price: 100 },
+//   { id: 2, name: 'TV', price: 400 },
+//   { id: 3, name: 'Album', price: 800 },
+//   { id: 4, name: 'Book', price: 600 },
+//   { id: 5, name: 'Phone', price: 500 },
+//   { id: 6, name: 'Computer', price: 1000 },
+//   { id: 7, name: 'Skate', price: 300 },
+//   { id: 8, name: 'Keyboard', price: 200 },
+//   { id: 9, name: 'Bottle', price: 700 },
+// ];
+// function getTopProducts(products, n) {
+//     return products.sort((a,b) => b.price - a.price).slice(0,n).map(product => product.name)
+// }
+// let n = 3
+// console.log(getTopProducts(products,n));
+
+// ! 9-masala
+// String.prototype.count = function(char) {
+//   let count = 0;
+//   for (let i = 0; i < this.length; i++) {
+//       if (this[i] === char) {
+//         count++;
+//       }
+//   }
+//   return count
+// }
+// let str = "Abdulaziz Programmer"
+// let char = "a"
+// console.log(str.count(char));
+
+// ! 10-masala
+// function Product (name, company, price, discount) {
+//     this.name = name;
+//     this.company = company;
+//     this.price = price;
+//     this.discount = discount;
+// };
+// Product.prototype.getInfo = function () {
+//     if(this.discount) {
+//         let newNarx = this.price - (this.price * this.discount / 100)
+//         return `${this.company} kompaniyasi tomonidan ishlab chiqarilgan ${this.name} ning asl narxi ${this.price}. Aksiya narxi esa ${this.discount}`
+//     } else {
+//         return `${this.company} kompaniyasi tomonidan ishlab chiqarilgan ${this.name} ning asl narxi ${this.price}. Aksiya mavjud emas`
+
+//     }
+// }
+// let p1 = new Product('Iphone 12 pro', "Aplle", 1500, 20)
+// let p2 = new Product('S22', "Samsung", 1200)
+
+// console.log(p1.getInfo());
+// console.log(p2.getInfo());
